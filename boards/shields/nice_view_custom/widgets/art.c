@@ -17,13 +17,6 @@
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P1 uint8_t anon_p1_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0x00, 0x00, 0x00, 0x00, 	/*Color of index 0*/
   0x28, 0x28, 0x28, 0xff, 	/*Color of index 1*/
 
@@ -112,13 +105,6 @@ const lv_img_dsc_t anon_p1 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P2 uint8_t anon_p2_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb4, 0xb4, 0xb4, 0xff, 	/*Color of index 0*/
   0x25, 0x25, 0x25, 0xff, 	/*Color of index 1*/
 
@@ -207,13 +193,6 @@ const lv_img_dsc_t anon_p2 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P3 uint8_t anon_p3_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0x00, 0x00, 0x00, 0x00, 	/*Color of index 0*/
   0x29, 0x29, 0x29, 0xff, 	/*Color of index 1*/
 
@@ -302,13 +281,6 @@ const lv_img_dsc_t anon_p3 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P4 uint8_t anon_p4_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb6, 0xb6, 0xb6, 0xff, 	/*Color of index 0*/
   0x26, 0x26, 0x26, 0xff, 	/*Color of index 1*/
 
@@ -397,13 +369,6 @@ const lv_img_dsc_t anon_p4 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P5 uint8_t anon_p5_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0x00, 0x00, 0x00, 0x00, 	/*Color of index 0*/
   0x2a, 0x2a, 0x2a, 0xff, 	/*Color of index 1*/
 
@@ -492,13 +457,6 @@ const lv_img_dsc_t anon_p5 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P6 uint8_t anon_p6_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb6, 0xb6, 0xb6, 0xff, 	/*Color of index 0*/
   0x27, 0x27, 0x27, 0xff, 	/*Color of index 1*/
 
@@ -587,13 +545,6 @@ const lv_img_dsc_t anon_p6 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P7 uint8_t anon_p7_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0x00, 0x00, 0x00, 0x00, 	/*Color of index 0*/
   0x2a, 0x2a, 0x2a, 0xff, 	/*Color of index 1*/
 
@@ -682,13 +633,6 @@ const lv_img_dsc_t anon_p7 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P8 uint8_t anon_p8_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb6, 0xb6, 0xb6, 0xff, 	/*Color of index 0*/
   0x27, 0x27, 0x27, 0xff, 	/*Color of index 1*/
 
@@ -777,13 +721,6 @@ const lv_img_dsc_t anon_p8 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P9 uint8_t anon_p9_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb5, 0xb5, 0xb5, 0xff, 	/*Color of index 0*/
   0x28, 0x28, 0x28, 0xff, 	/*Color of index 1*/
 
@@ -872,13 +809,6 @@ const lv_img_dsc_t anon_p9 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P10 uint8_t anon_p10_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb6, 0xb6, 0xb6, 0xff, 	/*Color of index 0*/
   0x27, 0x27, 0x27, 0xff, 	/*Color of index 1*/
 
@@ -967,13 +897,6 @@ const lv_img_dsc_t anon_p10 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P11 uint8_t anon_p11_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb5, 0xb5, 0xb5, 0xff, 	/*Color of index 0*/
   0x28, 0x28, 0x28, 0xff, 	/*Color of index 1*/
 
@@ -1062,13 +985,6 @@ const lv_img_dsc_t anon_p11 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P12 uint8_t anon_p12_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb7, 0xb7, 0xb7, 0xff, 	/*Color of index 0*/
   0x28, 0x28, 0x28, 0xff, 	/*Color of index 1*/
 
@@ -1157,13 +1073,6 @@ const lv_img_dsc_t anon_p12 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P13 uint8_t anon_p13_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb5, 0xb5, 0xb5, 0xff, 	/*Color of index 0*/
   0x27, 0x27, 0x27, 0xff, 	/*Color of index 1*/
 
@@ -1252,13 +1161,6 @@ const lv_img_dsc_t anon_p13 = {
 #endif
 
 const LV_ATTRIBUTE_MEM_ALIGN LV_ATTRIBUTE_LARGE_CONST LV_ATTRIBUTE_IMG_ANON_P14 uint8_t anon_p14_map[] = {
-#if CONFIG_NICE_VIEW_WIDGET_INVERTED
-    0xff, 0xff, 0xff, 0xff, /*Color of index 0*/
-    0x00, 0x00, 0x00, 0xff, /*Color of index 1*/
-#else
-    0x00, 0x00, 0x00, 0xff, /*Color of index 0*/
-    0xff, 0xff, 0xff, 0xff, /*Color of index 1*/
-#endif
   0xb7, 0xb7, 0xb7, 0xff, 	/*Color of index 0*/
   0x27, 0x27, 0x27, 0xff, 	/*Color of index 1*/
 
