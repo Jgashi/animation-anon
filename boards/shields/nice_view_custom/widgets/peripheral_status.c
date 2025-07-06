@@ -23,13 +23,13 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(bongo_1_map);
-LV_IMG_DECLARE(bongo_2_map);
+LV_IMG_DECLARE(bongo_1);
+LV_IMG_DECLARE(bongo_1);
 
 
 const lv_img_dsc_t *bongo_imgs[] = {
-    &bongo_1_map,
-    &bongo_2_map,
+    &bongo_1,
+    &bongo_2,
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
