@@ -20,15 +20,15 @@ manifest:
       # zmk official
     - name: zmkfirmware
       url-base: https://github.com/zmkfirmware
-    - name: gpeye                         #new entry
-      url-base: https://github.com/GPeye  #new entry
+    - name: Jgashi                         #new entry
+      url-base: https://github.com/Jgashi  #new entry
   projects:
     - name: zmk
       remote: zmkfirmware
       revision: main
       import: app/west.yml
-    - name: nice-view-mod                 #new entry
-      remote: gpeye                       #new entry
+    - name: bongo_cat                #new entry
+      remote: Jgashi                       #new entry
       revision: main                      #new entry
   self:
     path: config
