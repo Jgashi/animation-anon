@@ -23,12 +23,24 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(bongo_1);
-LV_IMG_DECLARE(bongo_2);
+LV_IMG_DECLARE(cat0);
+LV_IMG_DECLARE(cat1);
+LV_IMG_DECLARE(cat2);
+LV_IMG_DECLARE(cat3);
+LV_IMG_DECLARE(cat4);
+LV_IMG_DECLARE(cat5);
+LV_IMG_DECLARE(cat6);
+LV_IMG_DECLARE(cat7);
 
-const lv_img_dsc_t *bongo_imgs[] = {
-    &bongo_1,
-    &bongo_2,
+const lv_img_dsc_t *anim_imgs[] = {
+    &cat0,
+    &cat1,
+    &cat2,
+    &cat3,
+    &cat4,
+    &cat5,
+    &cat6,
+    &cat7
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
@@ -119,13 +131,12 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
     lv_obj_align(top, LV_ALIGN_TOP_RIGHT, 0, 0);
     lv_canvas_set_buffer(top, widget->cbuf, CANVAS_SIZE, CANVAS_SIZE, LV_IMG_CF_TRUE_COLOR);
 
-    lv_obj_t * art = lv_animimg_create(widget->obj);            //<--
-    lv_obj_center(art);                                         //<--
-    lv_animimg_set_src(art, (const void **) bongo_imgs, 2);     //<--
-    lv_animimg_set_duration(art, 2600);                         //<--
-    lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);  //<--
-    lv_animimg_start(art);                                      //<--
+    lv_obj_t * art = lv_animimg_create(widget->obj);
     lv_obj_align(art, LV_ALIGN_TOP_LEFT, 0, 0);
+    lv_animimg_set_src(art, (const void **) anim_imgs, 8); // frame count
+    lv_animimg_set_duration(art, 500 * 8); // 500ms * 16 frames
+    lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);
+    lv_animimg_start(art);
     
     sys_slist_append(&widgets, &widget->node);
     widget_battery_status_init();
