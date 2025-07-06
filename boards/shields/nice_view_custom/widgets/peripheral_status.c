@@ -23,36 +23,13 @@ LOG_MODULE_DECLARE(zmk, CONFIG_ZMK_LOG_LEVEL);
 
 #include "peripheral_status.h"
 
-LV_IMG_DECLARE(anon_p1);
-LV_IMG_DECLARE(anon_p2);
-LV_IMG_DECLARE(anon_p3);
-LV_IMG_DECLARE(anon_p4);
-LV_IMG_DECLARE(anon_p5);
-LV_IMG_DECLARE(anon_p6);
-LV_IMG_DECLARE(anon_p7);
-LV_IMG_DECLARE(anon_p8);
-LV_IMG_DECLARE(anon_p9);
-LV_IMG_DECLARE(anon_p10);
-LV_IMG_DECLARE(anon_p11);
-LV_IMG_DECLARE(anon_p12);
-LV_IMG_DECLARE(anon_p13);
-LV_IMG_DECLARE(anon_p14);
+LV_IMG_DECLARE(bongo_1_map);
+LV_IMG_DECLARE(bongo_2_map);
 
-const lv_img_dsc_t *anon_imgs[] = {
-    &anon_p1, 
-    &anon_p2, 
-    &anon_p3, 
-    &anon_p4, 
-    &anon_p5, 
-    &anon_p6, 
-    &anon_p7, 
-    &anon_p8,
-    &anon_p9, 
-    &anon_p10, 
-    &anon_p11, 
-    &anon_p12, 
-    &anon_p13, 
-    &anon_p14,
+
+const lv_img_dsc_t *bongo_imgs[] = {
+    &bongo_1_map,
+    &bongo_2_map,
 };
 
 static sys_slist_t widgets = SYS_SLIST_STATIC_INIT(&widgets);
@@ -145,8 +122,8 @@ int zmk_widget_status_init(struct zmk_widget_status *widget, lv_obj_t *parent) {
 
     lv_obj_t * art = lv_animimg_create(widget->obj);            //<--
     lv_obj_center(art);                                         //<--
-    lv_animimg_set_src(art, (const void **) anon_imgs, 14);     //<--
-    lv_animimg_set_duration(art, 4200);                         //<--
+    lv_animimg_set_src(art, (const void **) bongo_imgs, 2);     //<--
+    lv_animimg_set_duration(art, 2600);                         //<--
     lv_animimg_set_repeat_count(art, LV_ANIM_REPEAT_INFINITE);  //<--
     lv_animimg_start(art);                                      //<--
 
